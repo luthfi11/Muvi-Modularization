@@ -38,5 +38,5 @@ jobs:
      - name: Run a multi-line script
        run: |
           cd Muvi
-          xcrun simctl list
+          xcodebuild build -workspace Muvi.xcworkspace -scheme Muvi
          
