@@ -20,6 +20,34 @@
                ReferencedContainer = "container:Muvi.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3E8A2632270061C00043F539"
+               BuildableName = "MuviUITests.xctest"
+               BlueprintName = "MuviUITests"
+               ReferencedContainer = "container:Muvi.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3E8A2640270061D30043F539"
+               BuildableName = "MuviTests.xctest"
+               BlueprintName = "MuviTests"
+               ReferencedContainer = "container:Muvi.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
