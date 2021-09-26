@@ -19,6 +19,8 @@
 		3E79AA4626FDFFB000785199 /* Home.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3E79AA4426FDFFB000785199 /* Home.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3E896E2C27003D7B0064A83B /* About.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E896E2B27003D7B0064A83B /* About.framework */; };
 		3E896E2D27003D7B0064A83B /* About.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3E896E2B27003D7B0064A83B /* About.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3E8A2636270061C00043F539 /* MuviUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8A2635270061C00043F539 /* MuviUITests.swift */; };
+		3E8A2644270061D30043F539 /* MuviTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8A2643270061D30043F539 /* MuviTests.swift */; };
 		3EADDF9D270040E90073C7F0 /* Detail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EADDF9C270040E90073C7F0 /* Detail.framework */; };
 		3EADDF9E270040E90073C7F0 /* Detail.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3EADDF9C270040E90073C7F0 /* Detail.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3EADDFB5270042930073C7F0 /* Favorite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EADDFB4270042930073C7F0 /* Favorite.framework */; };
@@ -28,6 +30,23 @@
 		3EFA2C2A26F770AC00F126FF /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFA2C2926F770AC00F126FF /* Core.framework */; };
 		3EFA2C2B26F770AC00F126FF /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFA2C2926F770AC00F126FF /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E8A2638270061C10043F539 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E50A74726C90613007DF770 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E50A74E26C90613007DF770;
+			remoteInfo = Muvi;
+		};
+		3E8A2646270061D30043F539 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E50A74726C90613007DF770 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E50A74E26C90613007DF770;
+			remoteInfo = Muvi;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		3E06238E26F766D600BF3085 /* Embed Frameworks */ = {
@@ -60,6 +79,12 @@
 		3E50A75B26C90616007DF770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E79AA4426FDFFB000785199 /* Home.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Home.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E896E2B27003D7B0064A83B /* About.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = About.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8A2633270061C00043F539 /* MuviUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuviUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8A2635270061C00043F539 /* MuviUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuviUITests.swift; sourceTree = "<group>"; };
+		3E8A2637270061C10043F539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E8A2641270061D30043F539 /* MuviTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuviTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8A2643270061D30043F539 /* MuviTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuviTests.swift; sourceTree = "<group>"; };
+		3E8A2645270061D30043F539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EADDF9C270040E90073C7F0 /* Detail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Detail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EADDFB4270042930073C7F0 /* Favorite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Favorite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EADDFE2270045980073C7F0 /* Search.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Search.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +111,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3E8A2630270061C00043F539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8A263E270061D30043F539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -93,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				3E50A75126C90613007DF770 /* Muvi */,
+				3E8A2634270061C00043F539 /* MuviUITests */,
+				3E8A2642270061D30043F539 /* MuviTests */,
 				3E50A75026C90613007DF770 /* Products */,
 				C60089B41DA4DCB8FC7D9595 /* Pods */,
 				D28DB11AE00B042C1063A26E /* Frameworks */,
@@ -103,6 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				3E50A74F26C90613007DF770 /* Muvi.app */,
+				3E8A2633270061C00043F539 /* MuviUITests.xctest */,
+				3E8A2641270061D30043F539 /* MuviTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,6 +193,24 @@
 				3E2112CC26D2865C00826AAF /* Injection.swift */,
 			);
 			path = DI;
+			sourceTree = "<group>";
+		};
+		3E8A2634270061C00043F539 /* MuviUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E8A2635270061C00043F539 /* MuviUITests.swift */,
+				3E8A2637270061C10043F539 /* Info.plist */,
+			);
+			path = MuviUITests;
+			sourceTree = "<group>";
+		};
+		3E8A2642270061D30043F539 /* MuviTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E8A2643270061D30043F539 /* MuviTests.swift */,
+				3E8A2645270061D30043F539 /* Info.plist */,
+			);
+			path = MuviTests;
 			sourceTree = "<group>";
 		};
 		C60089B41DA4DCB8FC7D9595 /* Pods */ = {
@@ -202,6 +263,42 @@
 			productReference = 3E50A74F26C90613007DF770 /* Muvi.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3E8A2632270061C00043F539 /* MuviUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E8A263C270061C10043F539 /* Build configuration list for PBXNativeTarget "MuviUITests" */;
+			buildPhases = (
+				3E8A262F270061C00043F539 /* Sources */,
+				3E8A2630270061C00043F539 /* Frameworks */,
+				3E8A2631270061C00043F539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E8A2639270061C10043F539 /* PBXTargetDependency */,
+			);
+			name = MuviUITests;
+			productName = MuviUITests;
+			productReference = 3E8A2633270061C00043F539 /* MuviUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3E8A2640270061D30043F539 /* MuviTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E8A2648270061D30043F539 /* Build configuration list for PBXNativeTarget "MuviTests" */;
+			buildPhases = (
+				3E8A263D270061D30043F539 /* Sources */,
+				3E8A263E270061D30043F539 /* Frameworks */,
+				3E8A263F270061D30043F539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E8A2647270061D30043F539 /* PBXTargetDependency */,
+			);
+			name = MuviTests;
+			productName = MuviTests;
+			productReference = 3E8A2641270061D30043F539 /* MuviTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -213,6 +310,14 @@
 				TargetAttributes = {
 					3E50A74E26C90613007DF770 = {
 						CreatedOnToolsVersion = 12.5.1;
+					};
+					3E8A2632270061C00043F539 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 3E50A74E26C90613007DF770;
+					};
+					3E8A2640270061D30043F539 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 3E50A74E26C90613007DF770;
 					};
 				};
 			};
@@ -235,6 +340,8 @@
 			projectRoot = "";
 			targets = (
 				3E50A74E26C90613007DF770 /* Muvi */,
+				3E8A2632270061C00043F539 /* MuviUITests */,
+				3E8A2640270061D30043F539 /* MuviTests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,6 +353,20 @@
 			files = (
 				3E50A75A26C90616007DF770 /* Preview Assets.xcassets in Resources */,
 				3E50A75726C90616007DF770 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8A2631270061C00043F539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8A263F270061D30043F539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +425,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3E8A262F270061C00043F539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8A2636270061C00043F539 /* MuviUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8A263D270061D30043F539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8A2644270061D30043F539 /* MuviTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E8A2639270061C10043F539 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E50A74E26C90613007DF770 /* Muvi */;
+			targetProxy = 3E8A2638270061C10043F539 /* PBXContainerItemProxy */;
+		};
+		3E8A2647270061D30043F539 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E50A74E26C90613007DF770 /* Muvi */;
+			targetProxy = 3E8A2646270061D30043F539 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3E50A75C26C90616007DF770 /* Debug */ = {
@@ -469,6 +619,84 @@
 			};
 			name = Release;
 		};
+		3E8A263A270061C10043F539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXYYX45H23;
+				INFOPLIST_FILE = MuviUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.luthfi.muvi.MuviUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Muvi;
+			};
+			name = Debug;
+		};
+		3E8A263B270061C10043F539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXYYX45H23;
+				INFOPLIST_FILE = MuviUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.luthfi.muvi.MuviUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Muvi;
+			};
+			name = Release;
+		};
+		3E8A2649270061D30043F539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXYYX45H23;
+				INFOPLIST_FILE = MuviTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.luthfi.muvi.MuviTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Muvi.app/Muvi";
+			};
+			name = Debug;
+		};
+		3E8A264A270061D30043F539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXYYX45H23;
+				INFOPLIST_FILE = MuviTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.luthfi.muvi.MuviTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Muvi.app/Muvi";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -486,6 +714,24 @@
 			buildConfigurations = (
 				3E50A75F26C90616007DF770 /* Debug */,
 				3E50A76026C90616007DF770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E8A263C270061C10043F539 /* Build configuration list for PBXNativeTarget "MuviUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E8A263A270061C10043F539 /* Debug */,
+				3E8A263B270061C10043F539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E8A2648270061D30043F539 /* Build configuration list for PBXNativeTarget "MuviTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E8A2649270061D30043F539 /* Debug */,
+				3E8A264A270061D30043F539 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
