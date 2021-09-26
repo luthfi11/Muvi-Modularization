@@ -38,4 +38,4 @@ jobs:
      - name: Run a multi-line script
        run: |
           cd Muvi
-          xcodebuild -workspace Muvi.xcworkspace -scheme Muvi -destination "platform=iOS Simulator,name=iPhone 11 Pro,OS=14.1" /build
+          xcodebuild build -workspace Muvi.xcworkspace -scheme Muvi -destination "platform=iOS Simulator,name=iPhone 11 Pro,OS=14.1"
