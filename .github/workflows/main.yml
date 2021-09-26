@@ -38,5 +38,5 @@ jobs:
      - name: Run a multi-line script
        run: |
           cd Muvi
-          xcodebuild build -workspace Muvi.xcworkspace -scheme Muvi
+          xcodebuild build -workspace Muvi.xcworkspace -scheme Muvi CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
          
