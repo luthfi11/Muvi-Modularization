@@ -1,3 +1,5 @@
+source 'https://github.com/luthfi11/Muvi-CorePodSpecs'
+
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '14.5'
 
@@ -10,6 +12,7 @@ target 'Muvi' do
       pod 'RealmSwift'
       pod 'SDWebImageSwiftUI'
       pod 'Alamofire'
+      pod 'Core'
 end
 
 target 'Common' do
@@ -17,13 +20,7 @@ target 'Common' do
       pod 'RealmSwift'
       pod 'SDWebImageSwiftUI'
       pod 'Alamofire'
-end
-
-target 'Core' do
-   project '../Core/Core'
-      pod 'RealmSwift'
-      pod 'SDWebImageSwiftUI'
-      pod 'Alamofire'
+      pod 'Core'
 end
 
 target 'Home' do
@@ -31,6 +28,7 @@ target 'Home' do
       pod 'RealmSwift'
       pod 'SDWebImageSwiftUI'
       pod 'Alamofire'
+      pod 'Core'
 end
 
 target 'Detail' do
@@ -38,6 +36,7 @@ target 'Detail' do
       pod 'RealmSwift'
       pod 'SDWebImageSwiftUI'
       pod 'Alamofire'
+      pod 'Core'
 end
 
 target 'Favorite' do
@@ -45,6 +44,7 @@ target 'Favorite' do
       pod 'RealmSwift'
       pod 'SDWebImageSwiftUI'
       pod 'Alamofire'
+      pod 'Core'
 end
 
 target 'Search' do
@@ -52,11 +52,10 @@ target 'Search' do
       pod 'RealmSwift'
       pod 'SDWebImageSwiftUI'
       pod 'Alamofire'
+      pod 'Core'
 end
 
 target 'About' do
    project '../About/About'
-      pod 'RealmSwift'
       pod 'SDWebImageSwiftUI'
-      pod 'Alamofire'
 end

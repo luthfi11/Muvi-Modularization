@@ -27,8 +27,6 @@
 		3EADDFB6270042930073C7F0 /* Favorite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3EADDFB4270042930073C7F0 /* Favorite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3EADDFE3270045980073C7F0 /* Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EADDFE2270045980073C7F0 /* Search.framework */; };
 		3EADDFE4270045980073C7F0 /* Search.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3EADDFE2270045980073C7F0 /* Search.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3EFA2C2A26F770AC00F126FF /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFA2C2926F770AC00F126FF /* Core.framework */; };
-		3EFA2C2B26F770AC00F126FF /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFA2C2926F770AC00F126FF /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +55,6 @@
 			files = (
 				3EADDFB6270042930073C7F0 /* Favorite.framework in Embed Frameworks */,
 				3E06238D26F766D600BF3085 /* Common.framework in Embed Frameworks */,
-				3EFA2C2B26F770AC00F126FF /* Core.framework in Embed Frameworks */,
 				3E896E2D27003D7B0064A83B /* About.framework in Embed Frameworks */,
 				3EADDFE4270045980073C7F0 /* Search.framework in Embed Frameworks */,
 				3EADDF9E270040E90073C7F0 /* Detail.framework in Embed Frameworks */,
@@ -100,7 +97,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EFA2C2A26F770AC00F126FF /* Core.framework in Frameworks */,
 				3E79AA4526FDFFB000785199 /* Home.framework in Frameworks */,
 				3EADDFE3270045980073C7F0 /* Search.framework in Frameworks */,
 				3E06238C26F766D600BF3085 /* Common.framework in Frameworks */,

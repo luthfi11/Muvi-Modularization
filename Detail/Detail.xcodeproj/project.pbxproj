@@ -12,8 +12,6 @@
 		3EADDF99270040270073C7F0 /* MovieDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EADDF98270040270073C7F0 /* MovieDetailPresenter.swift */; };
 		3EADDF9B270040640073C7F0 /* DetailUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EADDF9A270040640073C7F0 /* DetailUseCase.swift */; };
 		3EADDFE727004C800073C7F0 /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EADDFE627004C800073C7F0 /* Injection.swift */; };
-		3EE6247B2700510700AB4F83 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EE6247A2700510700AB4F83 /* Core.framework */; };
-		3EE6247C2700510700AB4F83 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3EE6247A2700510700AB4F83 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3EE6247F2700511D00AB4F83 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EE6247E2700511D00AB4F83 /* Common.framework */; };
 		3EE624802700511D00AB4F83 /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3EE6247E2700511D00AB4F83 /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9C220C285DCCA18CBA06DD34 /* Pods_Detail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DA899F8EE62C9325F913A8F /* Pods_Detail.framework */; };
@@ -26,7 +24,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3EE6247C2700510700AB4F83 /* Core.framework in Embed Frameworks */,
 				3EE624802700511D00AB4F83 /* Common.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -56,7 +53,6 @@
 			files = (
 				3EE6247F2700511D00AB4F83 /* Common.framework in Frameworks */,
 				9C220C285DCCA18CBA06DD34 /* Pods_Detail.framework in Frameworks */,
-				3EE6247B2700510700AB4F83 /* Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

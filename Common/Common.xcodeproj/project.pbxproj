@@ -10,24 +10,8 @@
 		104A42650B02A1A35C79BFD0 /* Pods_Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB36DC035B33AF16A529A1E5 /* Pods_Common.framework */; };
 		3E06239126F767E800BF3085 /* MovieGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E06239026F767E800BF3085 /* MovieGrid.swift */; };
 		3EBEADAF26F765C000D31EC8 /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBEADAD26F765C000D31EC8 /* Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EC0D41626F8C74B004CB585 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC0D41526F8C74B004CB585 /* Core.framework */; };
-		3EC0D41726F8C74B004CB585 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC0D41526F8C74B004CB585 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3EC0D41F26F8C7F5004CB585 /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC0D41E26F8C7F5004CB585 /* DateFormat.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		3EC0D41826F8C74B004CB585 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				3EC0D41726F8C74B004CB585 /* Core.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		282794610CC110A2CA7636D3 /* Pods-Common.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common.debug.xcconfig"; path = "Target Support Files/Pods-Common/Pods-Common.debug.xcconfig"; sourceTree = "<group>"; };
@@ -50,7 +34,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				104A42650B02A1A35C79BFD0 /* Pods_Common.framework in Frameworks */,
-				3EC0D41626F8C74B004CB585 /* Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +130,6 @@
 				3EBEADA626F765C000D31EC8 /* Sources */,
 				3EBEADA726F765C000D31EC8 /* Frameworks */,
 				3EBEADA826F765C000D31EC8 /* Resources */,
-				3EC0D41826F8C74B004CB585 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

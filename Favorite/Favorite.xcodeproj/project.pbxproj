@@ -16,8 +16,6 @@
 		3EE6246C270050B800AB4F83 /* Detail.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3EE6246A270050B800AB4F83 /* Detail.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3EE6246F270050BE00AB4F83 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EE6246E270050BE00AB4F83 /* Common.framework */; };
 		3EE62470270050BE00AB4F83 /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3EE6246E270050BE00AB4F83 /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3EE62478270050D000AB4F83 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EE62477270050D000AB4F83 /* Core.framework */; };
-		3EE62479270050D000AB4F83 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3EE62477270050D000AB4F83 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		46C34474D87475A8D19144C9 /* Pods_Favorite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 905E8721FAE0050A29E39603 /* Pods_Favorite.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +27,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				3EE6246C270050B800AB4F83 /* Detail.framework in Embed Frameworks */,
-				3EE62479270050D000AB4F83 /* Core.framework in Embed Frameworks */,
 				3EE62470270050BE00AB4F83 /* Common.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -61,7 +58,6 @@
 				3EE6246F270050BE00AB4F83 /* Common.framework in Frameworks */,
 				46C34474D87475A8D19144C9 /* Pods_Favorite.framework in Frameworks */,
 				3EE6246B270050B800AB4F83 /* Detail.framework in Frameworks */,
-				3EE62478270050D000AB4F83 /* Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

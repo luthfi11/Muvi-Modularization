@@ -1,5 +1,9 @@
 PODS:
   - Alamofire (5.4.3)
+  - Core (1.0.0):
+    - Alamofire
+    - Realm
+    - RealmSwift
   - Realm (10.15.1):
     - Realm/Headers (= 10.15.1)
   - Realm/Headers (10.15.1)
@@ -13,10 +17,13 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - Core
   - RealmSwift
   - SDWebImageSwiftUI
 
 SPEC REPOS:
+  https://github.com/luthfi11/Muvi-CorePodSpecs.git:
+    - Core
   trunk:
     - Alamofire
     - Realm
@@ -26,11 +33,12 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  Core: a77db67fbf1a8f3f14a6631efc84e0e46ab6a43c
   Realm: fbcbde2620d51623cc5b18e28f5b165c39abef52
   RealmSwift: e4bea8e42efad3d543aea23b56504069c6faaea2
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
   SDWebImageSwiftUI: 8a3923c95108312b03a599ec1498754af55a6819
 
-PODFILE CHECKSUM: 98404eda53d8b6f1958983247604099d840a0753
+PODFILE CHECKSUM: 028aa417d6d6e9d152a54d11338385914a37e4ec
 
 COCOAPODS: 1.10.1
